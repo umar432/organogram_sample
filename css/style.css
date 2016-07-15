@@ -1,0 +1,163 @@
+#wrap{position: absolute; top: 0px; left: 0px;    width: 100%; height: 100%;    background-image: url(../images/grid.png);}
+header{xborder-bottom: 1px solid #00a3d9; padding-bottom: 10px; padding-top: 10px; height: 45px}
+#head_img{background: url("../images/header.png");
+   height:210px;}
+.hdr-rht{float: right; width: 30%; text-align:right; line-height:45px;  padding-right: 10px; }
+.hdr-lft{float:left; width: 70%; padding-left: 30px;}
+.hdr-rht h4{color:#0e8acc;font-family: "NoaLight",verdana,arial,sans-serif; }
+.hdr-lft img {border-radius:4px; }
+.hdr-lft-rda{position: relative; top:17px; left:-3px;}
+.hdr-lft-rda img{border-radius: 0px;}
+.innercont{background: #fff; padding-top:45px; border-radius:4px;box-shadow: 0 0 5px #888;}
+.tabofCont{border-top:1px solid #ccecf8; text-align: left;clear: both; position: relative; top:-10px; padding:5px;}
+
+.dummy{padding:0px 80px 0px 80px;}
+
+.custom {
+   cursor: url("../images/1.gif" );
+   background:red;
+   position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; z-index: 1; background: #00a1de; -webkit-filter: blur(5px); 
+}
+
+.table-bordered thead {color:#00a1de;font-size: 12px;  font-weight: 700; color:#fff; }
+.table-bordered{width:100%; border-radius: 4px; }
+.table-bordered thead tr th {padding:5px;  border-collapse: collapse;}
+.table-bordered td{   border-color: #ccc!important; padding:5px;}
+
+.table-bordered>thead>tr>th:first-child 
+{
+    border-radius:4px 0 0 0px;
+    background: linear-gradient(to bottom, #00B6E6 0px, #00A1DE 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+.table-bordered>thead>tr>th:last-child 
+{
+    border-radius:0px 4px 0px 0px;
+    background: linear-gradient(to bottom, #00B6E6 0px, #00A1DE 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+.table-bordered>thead>tr>th
+{
+
+    background: linear-gradient(to bottom, #00B6E6 0px, #00A1DE 100%) repeat scroll 0 0 rgba(0, 0, 0, 0);
+}
+
+
+
+
+
+
+
+.midHead{padding-top:10px; padding-bottom:10px;}
+.midHead span{font-family: Constantia,Baskerville,Georgia,serif;
+    font-size: 1.8rem; color:#00A1DE;}
+
+    
+/* New CSS*/
+body{font:13px/1.6 Helvetica !important;}
+.cont a { color: #FFF !important;   text-decoration: none;
+}
+@font-face{font-family:'NoaLight'; src:url("https://www.klm.com//ams/frontend/2.17.7/font/NoaLTW02-Light.woff") format("woff");}
+.cont{}
+.hd{border-bottom:1px solid #ccecf8; background-color:#009DE0; height:50px; box-shadow: 0 0 5px #36A9E9 !important; xcolor:#fff;}
+.hd img{border-radius:5px; ;box-shadow: 0 0 5px #009DE0;}
+.stellaF{padding-left:15px;position: relative;top: -15px; color:#fff; font-family: "NoaLight",verdana,arial,sans-serif; font-size:26px; letter-spacing: normal;}
+.hdLft{float:left; width:50%}
+.hdRht{float:right; width:50%;text-align:right}
+.midLay{color:#333; clear:both; padding-top:10px;}
+.arrow{ color: #00a1de; font-family:"NoaLight",verdana,arial,sans-serif;font-size: 32px; font-weight:normal;line-height: 1.3; padding-bottom:10px; display:block}
+.arrow_rt{text-align:right; float:right; font:13px/3.5 Helvetica !important; color:#333; font-weight:600!important;}
+ /* Panel & Table Design Start Here */
+.panel-default{border-color:#ccc!important;}
+.panel{border-radius: 4px; box-shadow: 0 0 5px #ccc !important;}
+.panel > .table-bordered > thead > tr:first-child > th{border-top:0 !important; border-color:#ccc;}
+.panel-default > .panel-heading {background: linear-gradient(to bottom, #00B6E6 0px, #00A1DE 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important; font-family:"NoaLight",verdana,arial,sans-serif;font-size: 18px; color:#fff;}
+.btn-primary { background:linear-gradient(to bottom, #00B6E6 0px, #00A1DE 100%) repeat scroll 0 0 rgba(0, 0, 0, 0) !important;  border-color: #2e6da4;  color: #fff;
+}
+.midLay b{  display:block;padding-bottom:10px; margin-top:10px;}
+.st-arw{background:url("../images/arrow-forward.png") no-repeat;  background-size:20px 20px; padding-left:20px;}
+.st-arw1{background:url("../images/arrow-forward.png") no-repeat;  background-size:20px 20px; padding-left:20px; clear:both; margin-top:40px!important;}
+button.btn.btn-default.glyphicon.glyphicon-search{top:0px !important;}
+div.input-group.xtra>input { background-color:transparent !important;}
+div.input-group.xtra>span>button{ background-color:transparent !important;}
+div.input-group.xtra>input[type="placeholder"] { color:#fff !important;}
+/**/
+
+/*Home Page Grid*/
+#cuttingedge img{box-shadow:none;}
+.blue-container-1 {width:40%; height:200px; float:right; border-bottom:1px solid #fff;border-left:1px solid #fff; background: rgba(0, 159, 222, .5); cursor:pointer; }
+.blue-container-2{width:40%; height:200px; float:right; border-bottom:1px solid #fff;cursor:pointer;}
+.blue-container-3{width:40%; height:200px; float:right; border-left:1px solid #fff;background: rgba(0, 159, 222, .5);cursor:pointer;}
+.blue-container-4{width:40%; height:200px; float:right; background: rgba(0, 159, 222, .5);cursor:pointer;}
+
+.blue-container-1:hover, .blue-container-3:hover, .blue-container-4:hover{ transition: .3s ease-out; background: rgba(0, 159, 222, 1); }
+.blue-container-1, .blue-container-3, .blue-container-4{ text-align:center; padding-top:40px;font-size:20px; color:#fff;}
+
+footer{ border-top:1px solid #009DE0; margin-top:50px; background: rgba(0, 0, 0, .5); padding-top:20px; padding-bottom:20px; color:#fff; position: fixed; 
+    bottom: 0;    left: 0;    right: 0;}
+.f-left{ width:60%; float:left;}
+.f-right{ width:40%; float:right; text-align:right}
+.f-right img {box-shadow:none; position:relative; top:-30px; margin-left:20px }
+.f-r-txt{position:relative; top:-30px; font-size:14px; padding-right:10px;}
+#grid-table{ margin-top:10px; xbackground-color:#fff;}
+
+/*Login*/
+#login-dp{
+    min-width: 250px;
+    padding: 14px 14px 0;
+    overflow:hidden;
+    background-color:rgba(0,159,222,.8);
+}
+#login-dp .help-block{
+    font-size:12px    
+}
+#login-dp .bottom{
+    background-color:rgba(255,255,255,.8);
+    border-top:1px solid #ddd;
+    clear:both;
+    padding:14px;
+}
+#login-dp .social-buttons{
+    margin:12px 0    
+}
+#login-dp .social-buttons a{
+    width: 49%;
+}
+#login-dp .form-group {
+    margin-bottom: 10px;
+}
+.btn-fb{
+    color: #fff;
+    background-color:#3b5998;
+}
+.btn-fb:hover{
+    color: #fff;
+    background-color:#496ebc 
+}
+.btn-tw{
+    color: #fff;
+    background-color:#55acee;
+}
+.btn-tw:hover{
+    color: #fff;
+    background-color:#59b5fa;
+}
+@media(max-width:768px){
+    #login-dp{
+        background-color: inherit;
+        color: #fff;
+    }
+    #login-dp .bottom{
+        background-color: inherit;
+        border-top:0 none;
+    }
+	
+}
+@media (min-width: 768px)
+{
+.navbar-nav>li>a {
+    padding-top: 0px;
+	padding-bottom: 15px;
+}
+}
+.nav .open>a, .nav .open>a:hover, .nav .open>a:focus { background-color: #009DE0;}
+.nav>li>a:hover, .nav>li>a:focus { background-color: #009DE0; }
