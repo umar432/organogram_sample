@@ -24,12 +24,13 @@
 		 
 		  $( "#mout" ).hover(function()  {
 			$( "#bgx" ).fadeOut( "slow", function() {
-					
 					$("#splash").hide();
-					
+					$(".follow").hide();
 				});
 			});
-			
+			$("#splash").mousemove(function(e){
+				$('.follow').css({'top': e.clientY - 20, 'left': e.clientX - 20});
+			});
 	});
     </script>
 	<style>
@@ -38,12 +39,15 @@
    background:red;
    position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; z-index: 1; background: #000; x-webkit-filter: blur(5px); 
 }
-
+	#myimg{
+		position: absolute;
+	z-index: 1000;
+	}
 	</style>
 </head>
 <body>
 
-
+<div class="follow" id="myimg"><img src="images/s.png" width="100px"/></div>
 <div>
 <div class="custom1" id="splash" >
 	<div id="bgx" style="position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; z-index: 9; background: url('./images/CoverBlue.png') no-repeat center top fixed;background-size:cover;">
