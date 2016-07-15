@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Organogram</title>
+    <link type="image/x-icon" rel="shortcut icon" href="images/favicon.ico">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link href="css/bootstrap-datetimepicker.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script type="text/javascript">
+   	$(document).ready(function()
+   	{
+		 
+		  $( "#mout" ).hover(function()  {
+			$( "#bgx" ).fadeOut( "slow", function() {
+					$("#splash").hide();
+					$(".follow").hide();
+				});
+			});
+			$("#splash").mousemove(function(e){
+				$('.follow').css({'top': e.clientY - 20, 'left': e.clientX - 20});
+			});
+	});
+    </script>
+	<style>
+	.custom1 {
+   cursor: url("../images/1.gif" );
+   background:red;
+   position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; z-index: 1; background: #222; x-webkit-filter: blur(5px); 
+}
+	#myimg{
+		position: absolute;
+	z-index: 1000;
+	}
+	</style>
+</head>
+<body>
+
+<div class="follow" id="myimg"><img src="images/s.png" width="100px"/></div>
+<div>
+<div class="custom1" id="splash" >
+	<div id="bgx" style="position: absolute; top: 0px; bottom: 0px; left: 0px; right: 0px; z-index: 9; background: url('./images/CoverBlue2.png') no-repeat center top fixed;background-size:cover;">
+	<div id="mout" style="height:230px; margin-top:100px; position:relative; left:50%; width:50%; "></div>
+	</div>	
+</div><!-- End of Splash Screen -->
+
+</div>
+<div id="wrap"> 
+<div class="cont">
+	<div class="hd">
+		<div class="container">
+			
+		<header>
+		       	<div class="hdLft"><img src="images/Ld-G0Des_400x400.png" width="70" height="70"/>
+		       	<span class="stellaF"><span style="font-size:28px;">O</span>rganogram</span>
+		       	</div>
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+     
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="caret"></span></a>
+			<ul id="login-dp" class="dropdown-menu">
+				<li>
+					 <div class="row">
+							<div class="col-md-12">
+								
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group" >
+											 <label class="sr-only" for="exampleInputEmail2">User Name</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="User Name" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								New here ? <a href="#"><b>Join Us</b></a>
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+      </ul>
+    </div>
+		      
+        </header><!-- Header End Here-->
+		
+		<!-- Middle Layout Start Here -->
+		<div class="midLay">
+			<div id="cuttingedge" style="float:right;width:100%; padding-top:40px; ">
+					<div style="width:50%; float:left; background: rgba(255, 255, 255, .8); box-shadow: 0 6px 12px rgba(0,0,0,.175);">
+					<p style="padding:20px;">
+					<b style="border-left:5px solid #009DE0; padding-left:10px; font-size:24px; ">About Organogram</b><br>
+					Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+					</p>
+					</div>
+					<div style="width:50%; float:right">
+							<div style="display:block;">
+							<a href="gridview.html"><div class="blue-container-1"><img src="images/List.png" width="80px"/><br/><span>Grid View</span></div></a>
+							<div class="blue-container-2"></div>
+							<div style="clear:both"></div>
+							</div>
+							<div style="display:block;">
+							<div class="blue-container-3"><img src="images/Tree.png" width="80px"/><br/><span>Tree View</span></div>
+							<div class="blue-container-4"><img src="images/FlowChart.png" width="80px"/><br/><span>List View</span></div>
+							<div style="clear:both"></div>
+							</div>
+					</div>
+					
+					 
+			</div><!--Cutting Edge id Ends -->
+		</div><!-- MidLay class Ends Here-->
+		
+	</div> <!-- Class Container Ends -->
+	<footer>
+		<div class="container" >
+			<div class="f-left">
+				<a href="#">Home</a><span style="padding-left:10px;padding-right:10px">|</span>
+				<a href="#">Privacy policy</a><span style="padding-left:10px; padding-right:10px">|</span>
+				<a href="#">Cookie policy</a>
+			</div><!-- class f-left ends here -->
+			<div class="f-right">
+				<span class="f-r-txt">Powered By:</span>
+				<span style="border-left:1px solid #fff; font-size:100px"></span>
+				<span><img src="images/tcs.png" width="200px"></span>
+			</div>  <!-- class f-right ends here -->
+		</div>
+	</footer>
+	</div> <!-- id hd ends here -->
+</div> <!-- class cont ends here -->
+</div><!-- ID Wrap Ends -->
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="js/bootstrap.min.js"></script>
+<script src="js/moment.js"></script>
+<script src="js/bootstrap-datetimepicker.js"></script>
+</body>
+</html>
